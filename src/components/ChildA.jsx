@@ -3,7 +3,7 @@ import ChildB from './ChildB';
 const ChildA = ({ name }) => {
   return (
     <div>
-      ChildA
+      In ChildA
       <div>
         <ChildB name={name}></ChildB>
       </div>

@@ -2,7 +2,7 @@ import ChildC from './ChildC';
 const ChildB = ({ name }) => {
   return (
     <div>
-      ChildB
+      In ChildB
       <div className="">
         <ChildC name={name}></ChildC>
       </div>

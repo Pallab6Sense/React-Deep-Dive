@@ -1,7 +1,7 @@
 const ChildC = ({ name }) => {
   return (
     <div>
-      ChildC
+      In ChildC
       <div className="">
         <h1>{name}</h1>
       </div>
