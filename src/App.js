@@ -5,8 +5,8 @@ import useFetch from './components/hooks/useFetch';
 
 function App() {
   const data = useFetch('https://jsonplaceholder.typicode.com/users');
+  console.log("🚀 ~ file: App.js:8 ~ App ~ data:", data)
 
-  console.log('Data From API', data);
   return (
     <div className="App">
       <TextForm heading="Enter the text to analyze"></TextForm>
