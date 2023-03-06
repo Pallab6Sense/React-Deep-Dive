@@ -5,12 +5,12 @@ import useFetch from './components/hooks/useFetch';
 
 function App() {
   const data = useFetch('https://jsonplaceholder.typicode.com/users');
-  console.log("🚀 ~ file: App.js:8 ~ App ~ data:", data)
+  console.log('🚀 ~ file: App.js:8 ~ App ~ data:', data);
 
   return (
     <div className="App">
       <TextForm heading="Enter the text to analyze"></TextForm>
-      <div className="">
+      <div className="propsdrilling-div">
         <PropsDrilling />
       </div>
 
